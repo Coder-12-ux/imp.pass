@@ -13,7 +13,7 @@ def fDemessify(fp):
 
 
 def messify(string):
-    cache = {}
+    cache = {} 
     new_string = ""
 
     for character in string:
@@ -46,3 +46,6 @@ def demessify(string):
         solved_string += cache[c]
 
     return solved_string
+
+
+pdm = lambda x: fDemessify(open("x"))
